@@ -73,7 +73,7 @@ class TestedTEST {
 	//range of zeros
 	@Test
 	void returnRangeZeros() {
-		assertEquals(t.returnRange(TESTArrayZeros),0);
+		assertEquals(t.returnRange(TESTArrayZeros),1);
 	}
 	
 	//range of negatives and a positive
