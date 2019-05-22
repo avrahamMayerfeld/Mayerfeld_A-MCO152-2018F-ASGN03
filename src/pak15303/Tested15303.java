@@ -27,12 +27,12 @@ public class Tested15303 {
 	
 	public int returnMin(int[] intarr) 
 	{
-        int min= intarr[0];
+        	int min= intarr[0];
 		
 		for (int i :intarr)
 		{
 			if(i < min)
-		    min = i;
+		    		min = i;
 		}
 		
 		return min;
