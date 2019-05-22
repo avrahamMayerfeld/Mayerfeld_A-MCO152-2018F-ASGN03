@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 
 class TestedTEST {
-    Tested15303 t = new Tested15303();
+    	Tested15303 t = new Tested15303();
 	int[] TESTArray = {5,3,1000,1000,452,86,45,};
 	int[] TESTArrayZeros = {0,0,0,0,0,0,0,0};
 	int[] TESTArrayNeg = {-9,-0,-8,4};
@@ -30,7 +30,7 @@ class TestedTEST {
 	
 	//Regular array max with two identical numbers, each not at end of array
 	@Test
-    void returnMaxIdentical() {
+    	void returnMaxIdentical() {
 		assertEquals(t.returnMax(TESTArray), 1000);
 	}
 	
